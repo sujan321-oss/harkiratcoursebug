@@ -2,11 +2,14 @@ import requests
 import os 
 
 host = "https://harkiratapi.classx.co.in"
-authkey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijc0MzEyIiwiZW1haWwiOiJraHVtYXBva2hhcmVsMjA3OEBnbWFpbC5jb20iLCJ0aW1lc3RhbXAiOjE3MzI3MjgyMDZ9.ZjwXhMHVYdcO4DqaXcDCgIqavyD5uKcr7V_F55epXis"
+
+######################################################
+## put your  auth key and user id 
+###################################################
 
 headers = {
-    "authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijc0MzEyIiwiZW1haWwiOiJraHVtYXBva2hhcmVsMjA3OEBnbWFpbC5jb20iLCJ0aW1lc3RhbXAiOjE3MzI3MjgyMDZ9.ZjwXhMHVYdcO4DqaXcDCgIqavyD5uKcr7V_F55epXis", 
-    "User-Id": "74312",
+    "authorization":"" , 
+    "User-Id":"" ,
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.86 Safari/537.36",
     "Auth-Key": "appxapi",
 }
